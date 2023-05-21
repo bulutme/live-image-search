@@ -1,6 +1,7 @@
 {
   "name": "ruut",
   "version": "0.1.0",
+  "homepage": "https://ruut-app.netlify.app",
   "private": true,
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
