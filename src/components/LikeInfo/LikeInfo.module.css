@@ -1,0 +1,24 @@
+.likeInfo {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+
+  .icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .count {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+  }
+}

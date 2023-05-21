@@ -1,0 +1,26 @@
+.turnBackButton {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  backdrop-filter: blur(20px);
+  margin-bottom: 50px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  .icon {
+    width: 100%;
+  }
+}
+
+.turnBackButton:hover {
+  background-color: lightgray;
+  box-shadow: 0px 15px 20px lightgray;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+@media screen and (min-width: 1440px) {
+  .turnBackButton {
+    margin-bottom: 100px;
+  }
+}

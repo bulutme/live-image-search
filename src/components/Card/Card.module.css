@@ -1,0 +1,40 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 242px;
+  height: 350px;
+  border-radius: 10px;
+  color: black;
+  transition: 0.5s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+
+  .image {
+    border-bottom: 1px solid red;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+
+  .information {
+    display: flex;
+    height: 20%;
+    align-items: center;
+    gap: 8px;
+    padding: 0 16px;
+
+    .username {
+      font-size: 14px;
+      margin-top: 4px;
+      text-transform: capitalize;
+      align-self: center;
+    }
+  }
+}
+
+.card:hover {
+  transform: scale(1.05);
+}

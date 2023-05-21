@@ -1,0 +1,14 @@
+.noContent {
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+  color: lightgray;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .noContent {
+    font-size: 32px;
+  }
+}
